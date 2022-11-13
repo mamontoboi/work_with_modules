@@ -1,4 +1,5 @@
 from random import randint
+from Task_3_wheels import *
 
 
 def inquire():
@@ -8,6 +9,3 @@ def inquire():
 
 def prime_gen():
     yield randint(2, 99)
-
-
-x = 'hello stupid world'
